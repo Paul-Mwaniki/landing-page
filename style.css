@@ -48,11 +48,11 @@ body{
     justify-content: center;
     align-items: center;
     width:350px;
-    gap:10px;
+    gap:30px;
     text-align: center;
 }
 .hero .title{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bolder;
 }
 .hero .content{
