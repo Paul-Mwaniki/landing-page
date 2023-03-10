@@ -32,6 +32,9 @@ body{
     text-decoration:none;
     color: #f9f8fa;
 }
+.menu_item:hover{
+      color:bisque;
+}
 .banner{
     display: flex;
     color: #f9f8fa;
@@ -66,8 +69,44 @@ body{
     font-size: 18px;
     border-radius: 10px;
 }
+.order_btn button:hover{
+
+    transform: scale(1.1);
+}
 .banner_image{
     display: flex;
     justify-content: center;
     align-self: flex-start;
+}
+.section1{
+    padding:20px;
+}
+.section1-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.section1-services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:20px;
+    
+ 
+}
+.Section1-serv_card{
+  border: #1f2937 1px solid;
+  padding:10px;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.Section1-serv_card:hover{
+    transform: scale(1.1);
+}
+.section1-description{
+    text-align: center;
+    font-size: 1.3rem;
 }
