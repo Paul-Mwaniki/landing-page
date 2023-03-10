@@ -110,3 +110,25 @@ body{
     text-align: center;
     font-size: 1.3rem;
 }
+.testimonial{
+    display:flex;
+    background-color: #efe7eb;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+.testimonial-card{
+    width:600px;
+    display:flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap:2px;
+}
+.quote-mark{
+    width: 24px;
+    height: 24px;
+}
+.client-name{
+    align-self: flex-end;
+    font-weight: bold;
+}
